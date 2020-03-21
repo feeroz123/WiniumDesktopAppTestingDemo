@@ -15,11 +15,11 @@ public class FirstTest {
 	
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		
-		String username = "Administrator";
-		String password = "Aspect9";
+		String username = "username";
+		String password = "password";
 		
 		DesktopOptions options = new DesktopOptions();
-		options.setApplicationPath("D:\\PROJECTS\\Aspect\\UIP_EnterpriseMonitor\\Debug\\Aspect.UnifiedIP.EnterpriseMonitor.Presentation.exe");
+		options.setApplicationPath("D:\\PROJECTS\\Path_To_Application_Exe_file");
 		
 		WiniumDriver driver = new WiniumDriver(new URL("http://localhost:9999"), options);
 		Thread.sleep(2000);
