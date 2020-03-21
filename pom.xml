@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.kd</groupId>
+	<artifactId>em-automation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>EnterpriseMonitor_TestAutomation</name>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<apache.poi.version>4.1.2</apache.poi.version>
+		<testng.version>7.1.0</testng.version>
+		<extentreports-version>4.0.9</extentreports-version>
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
+	</properties>
+
+	<dependencies>
+			<!-- https://mvnrepository.com/artifact/com.github.2gis.winium/winium-webdriver -->
+			<dependency>
+				<groupId>com.github.2gis.winium</groupId>
+				<artifactId>winium-webdriver</artifactId>
+				<version>0.1.0-1</version>
+			</dependency>
+	</dependencies>
+
+
+</project>
