@@ -19,7 +19,7 @@ public class FirstTest {
 		String password = "password";
 		
 		DesktopOptions options = new DesktopOptions();
-		options.setApplicationPath("D:\\PROJECTS\\Path_To_Application_Exe_file");
+		options.setApplicationPath("D:\\PROJECTS\\Path_To_Application\\Application.exe");
 		
 		WiniumDriver driver = new WiniumDriver(new URL("http://localhost:9999"), options);
 		Thread.sleep(2000);
